@@ -1,0 +1,183 @@
+please select one of the following:
+	1. import equations from a file.
+	2. input values of each equation.
+	3. Exit.
+select by typing 1 or 2: 1
+what is the desired error to reach?
+0.01
+Enter the starting values below:
+X1: 0
+X2: 0
+X3: 0
+
+----------------------------------------
+Now calculating the equations using the Jacobi method: 
+
+iteration 1: {0.6667 0.2000 2.0000}
+iteration 2: {4.4000 -0.3333 2.1778}
+iteration 3: {5.4667 1.0889 5.3778}
+iteration 4: {9.9704 0.2356 4.1926}
+iteration 5: {8.7378 2.5111 8.3328}
+iteration 6: {13.9842 0.3620 4.4770}
+iteration 7: {9.1381 4.0029 10.8402}
+iteration 8: {17.0098 -0.4808 2.7549}
+iteration 9: {6.8176 5.9020 13.9810}
+iteration 10: {20.7594 -2.6654 -1.3242}
+iteration 11: {1.5720 9.0334 19.3934}
+iteration 12: {27.4089 -6.9285 -8.9966}
+iteration 13: {-8.0884 14.7622 29.5106}
+iteration 14: {40.0050 -14.8396 -23.0752}
+iteration 15: {-25.6975 25.4321 48.4562}
+iteration 16: {63.6696 -29.4615 -49.0411}
+iteration 17: {-58.1336 45.2843 83.7283}
+iteration 18: {107.7443 -56.5448 -97.1347}
+iteration 19: {-118.2098 82.1516 149.2226}
+iteration 20: {189.5763 -106.7729 -186.3420}
+iteration 21: {-229.6534 150.5673 270.7481}
+iteration 22: {341.4064 -199.9606 -351.8587}
+iteration 23: {-436.4366 277.5061 496.2185}
+iteration 24: {623.0955 -372.8620 -658.9658}
+iteration 25: {-820.1156 513.0245 914.5464}
+iteration 26: {1145.7267 -693.6648 -1228.7764}
+iteration 27: {-1531.9998 950.0012 1690.7042}
+iteration 28: {2115.4067 -1288.8816 -2286.0016}
+iteration 29: {-2852.8276 1760.7633 3130.7799}
+iteration 30: {3914.5421 -2393.2430 -4247.5695}
+iteration 31: {-5303.4816 3265.0446 5802.6854}
+iteration 32: {7252.6447 -4442.2668 -7887.0473}
+iteration 33: {-9850.4054 6056.0768 10760.1189}
+iteration 34: {13446.1354 -8244.0097 -14639.7060}
+iteration 35: {-18286.7323 11234.5366 19958.1032}
+iteration 36: {24937.4910 -15297.7342 -27168.5370}
+iteration 37: {-33939.4283 20842.6112 37023.9730}
+iteration 38: {46258.4644 -28385.1605 -50414.4338}
+iteration 39: {-62981.3202 38669.3593 68687.8570}
+iteration 40: {85817.2349 -52667.4709 -93544.6925}
+iteration 41: {-116865.4239 71744.9710 127436.7844}
+iteration 42: {159214.2742 -97720.6833 -173568.2439}
+iteration 43: {-216841.5767 133113.2072 236439.0939}
+iteration 44: {295394.5782 -181312.0682 -322043.3274}
+iteration 45: {-402336.5639 246975.3622 438681.1431}
+iteration 46: {548062.4698 -336406.8828 -597522.8589}
+iteration 47: {-746502.5407 458234.3315 813919.4903}
+iteration 48: {1016860.5385 -624168.6124 -1108645.4691}
+iteration 49: {-1385065.4551 850202.6031 1510133.8422}
+iteration 50: {1886664.8804 -1158079.5189 -2056978.4408}
+These equations do not converge within 50 iterations and above is the 50th iteration.
+
+----------------------------------------
+Now calculating the equations using the Gauss-sidle method: 
+
+iteration 1: {0.6667 0.4667 1.8222}
+iteration 2: {3.6889 0.9467 3.1970}
+iteration 3: {5.7985 1.2406 4.2116}
+iteration 4: {7.4357 1.4896 4.9709}
+iteration 5: {8.6223 1.6606 5.5341}
+iteration 6: {9.5208 1.7947 5.9543}
+iteration 7: {10.1824 1.8912 6.2666}
+iteration 8: {10.6783 1.9647 6.4993}
+iteration 9: {11.0457 2.0186 6.6724}
+iteration 10: {11.3200 2.0591 6.8013}
+iteration 11: {11.5238 2.0890 6.8972}
+iteration 12: {11.6757 2.1114 6.9686}
+iteration 13: {11.7887 2.1280 7.0217}
+converged at the above iteration.
+
+
+please select one of the following:
+	1. import equations from a file.
+	2. input values of each equation.
+	3. Exit.
+select by typing 1 or 2: 2
+Enter the number of linear equations you want to solve (must be between 2-10): 3
+input values for each row including b value: 
+3 4 -6 2
+2 -5 -2 -1
+-2 4 3 6
+Enter the starting values below:
+X1: 0
+X2: 0
+X3: 0
+enter the stopping error: 0.01
+
+----------------------------------------
+Calculating the valuses using Jacobi method: 
+
+iteration 1: {0.6667 0.2000 2.0000}
+iteration 2: {4.4000 -0.3333 2.1778}
+iteration 3: {5.4667 1.0889 5.3778}
+iteration 4: {9.9704 0.2356 4.1926}
+iteration 5: {8.7378 2.5111 8.3328}
+iteration 6: {13.9842 0.3620 4.4770}
+iteration 7: {9.1381 4.0029 10.8402}
+iteration 8: {17.0098 -0.4808 2.7549}
+iteration 9: {6.8176 5.9020 13.9810}
+iteration 10: {20.7594 -2.6654 -1.3242}
+iteration 11: {1.5720 9.0334 19.3934}
+iteration 12: {27.4089 -6.9285 -8.9966}
+iteration 13: {-8.0884 14.7622 29.5106}
+iteration 14: {40.0050 -14.8396 -23.0752}
+iteration 15: {-25.6975 25.4321 48.4562}
+iteration 16: {63.6696 -29.4615 -49.0411}
+iteration 17: {-58.1336 45.2843 83.7283}
+iteration 18: {107.7443 -56.5448 -97.1347}
+iteration 19: {-118.2098 82.1516 149.2226}
+iteration 20: {189.5763 -106.7729 -186.3420}
+iteration 21: {-229.6534 150.5673 270.7481}
+iteration 22: {341.4064 -199.9606 -351.8587}
+iteration 23: {-436.4366 277.5061 496.2185}
+iteration 24: {623.0955 -372.8620 -658.9658}
+iteration 25: {-820.1156 513.0245 914.5464}
+iteration 26: {1145.7267 -693.6648 -1228.7764}
+iteration 27: {-1531.9998 950.0012 1690.7042}
+iteration 28: {2115.4067 -1288.8816 -2286.0016}
+iteration 29: {-2852.8276 1760.7633 3130.7799}
+iteration 30: {3914.5421 -2393.2430 -4247.5695}
+iteration 31: {-5303.4816 3265.0446 5802.6854}
+iteration 32: {7252.6447 -4442.2668 -7887.0473}
+iteration 33: {-9850.4054 6056.0768 10760.1189}
+iteration 34: {13446.1354 -8244.0097 -14639.7060}
+iteration 35: {-18286.7323 11234.5366 19958.1032}
+iteration 36: {24937.4910 -15297.7342 -27168.5370}
+iteration 37: {-33939.4283 20842.6112 37023.9730}
+iteration 38: {46258.4644 -28385.1605 -50414.4338}
+iteration 39: {-62981.3202 38669.3593 68687.8570}
+iteration 40: {85817.2349 -52667.4709 -93544.6925}
+iteration 41: {-116865.4239 71744.9710 127436.7844}
+iteration 42: {159214.2742 -97720.6833 -173568.2439}
+iteration 43: {-216841.5767 133113.2072 236439.0939}
+iteration 44: {295394.5782 -181312.0682 -322043.3274}
+iteration 45: {-402336.5639 246975.3622 438681.1431}
+iteration 46: {548062.4698 -336406.8828 -597522.8589}
+iteration 47: {-746502.5407 458234.3315 813919.4903}
+iteration 48: {1016860.5385 -624168.6124 -1108645.4691}
+iteration 49: {-1385065.4551 850202.6031 1510133.8422}
+iteration 50: {1886664.8804 -1158079.5189 -2056978.4408}
+These equations do not converge within 50 iterations and above is the 50th iteration.
+
+----------------------------------------
+Calculating values using Gauss-Sidle method: 
+
+iteration 1: {0.6667 0.4667 1.8222}
+iteration 2: {3.6889 0.9467 3.1970}
+iteration 3: {5.7985 1.2406 4.2116}
+iteration 4: {7.4357 1.4896 4.9709}
+iteration 5: {8.6223 1.6606 5.5341}
+iteration 6: {9.5208 1.7947 5.9543}
+iteration 7: {10.1824 1.8912 6.2666}
+iteration 8: {10.6783 1.9647 6.4993}
+iteration 9: {11.0457 2.0186 6.6724}
+iteration 10: {11.3200 2.0591 6.8013}
+iteration 11: {11.5238 2.0890 6.8972}
+iteration 12: {11.6757 2.1114 6.9686}
+iteration 13: {11.7887 2.1280 7.0217}
+converged at the above iteration.
+
+
+please select one of the following:
+	1. import equations from a file.
+	2. input values of each equation.
+	3. Exit.
+select by typing 1 or 2: 3
+
+Process finished with exit code 0
