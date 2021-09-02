@@ -3,30 +3,32 @@
 This was done for CS 3010 Numerical Methods
 ---
 ### Description:
-###### 1. Gauss-Seidel method: This is an itterative method used to solve a system of linear equations
-###### 2. Jacobi method: This is also an itterative method used to solve a system of linear equations. 
-###### These methods are very similar to each other with minor difference.
+###### Gauss-Seidel method: This is an itterative method used to solve a system of linear equations
+###### Jacobi method: This is also an itterative method used to solve a system of linear equations. 
 ---
-### Backstory:
-###### This is the second try of the team to rebuild this algorithm after the first version proved to be unsuccessful.This time we implimented the code in Google collab which allowed for better debugging experience. Though we had to import the data set everytime into the data base. Version 1 is also included as a reference.
----
-### Data Set:
-###### The data used is a list of fruits (Orange, Apple, Mandarin, Lemon). This data set has many features such as weight, height, width, etc. but for our purposes we used only the width, height, fruit-name attributes. We split the data set 30-70 with 30% of data for testing and 70% for training.
+### Specifications:
+###### These methods are very similar to each other with minor difference. 
+###### Both methods will run 50 times maximum.
+###### There are 3 equations total and they are hard coded.
 ---
 ### How:
-#### Gauss-Seidel
-...
+#### There are couple of checks that need to be done before we begin:
+1. Writing equations on top of each other there must be no zero terms along the diagonal if there are rearange the equations.
+2. Solve each equation for x<sub>i</sub> starting from i = 1. so the first equation is in terms of X<sub>1</sub> and so on.
+3. start from an initial guess. here my initial values are all zeros: x<sub>1</sub> = 0 , x<sub>2</sub> = 0 , x<sub>3</sub> = 0  
 #### Jacobi : 
-###### 
+1. use the initial guess to find x<sub>i</sub> for all there equations
+2. replace the x<sub>i</sub> answers in a vector and use the found answers as the input guess for the next itteration.
+3. repeat 50 times
+
+#### Gauss-Seidel: 
+1. This method is almost exactly the same in the first step. find the first equation's answers based on initial guess.
+2. Immedietly substitute the answer for x<sub>1</sub> into the vector to use for x<sub>2</sub>.
+3. Immedietly substitute the answer for x<sub>2</sub> into the vector to use for x<sub>3</sub>
+4. repeat these steps 50 times.
+
 ---
-### What did we learn?
-###### a clean data set is crucial for this algorithm to be successful. Preprocessing of the data took by far the longest amount of time and it was by far the most useful thing we did. A distinct data set that is also absoluteley necessary.
-###### Choosing a reasonable k number of neighbors to consider is very important. if k is too large or too small the data could be dramatically influenced. This happens usually when a dataset has very similar items and can be visually seen when plotting the data set. we can easily undermine the distance function if the K number is too large since we will be considering the objects that are too far away and are considered of a different kind, but we are considering them anyway because that particular object is still closer than others.
----
-### Using: 
-* Python
-* Numpy
-* Pandas
-* Matplotlib
-* Google colab
+### Used: 
+* Java
+* No helping packages or implementations
 
